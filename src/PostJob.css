@@ -1,0 +1,19 @@
+.PostJob {
+    width: 600px;
+    justify-content: center;
+    margin: auto;
+}
+
+.PostJob-InputGroup {
+    padding: 25px;
+}
+
+.PostJob-textarea {
+    height: 250px;
+}
+
+.PostJob Button {
+    width: 125px;
+    height: 50px;
+    margin: 10px;
+}

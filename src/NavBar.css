@@ -1,0 +1,10 @@
+.NavBar {
+    width: auto;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(170, 222, 240);
+}
+
+.active {
+    color: rgba(76, 0, 255, 0.623);
+}

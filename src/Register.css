@@ -1,0 +1,22 @@
+.Register {
+  margin: auto;
+  padding: 75px;
+  border: thin solid black;
+  width: 400px;
+  justify-content: center;
+}
+
+.Register-Label {
+  width: 100px;
+  padding-top: 8px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.Register-Input {
+  width: 200px;
+}
+
+Button {
+  margin-top: 10px;
+}

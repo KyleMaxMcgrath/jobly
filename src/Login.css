@@ -1,0 +1,20 @@
+.Login {
+  margin: auto;
+  padding: 75px;
+  border: thin solid black;
+  width: 400px;
+  justify-content: center;
+}
+
+.Login-Label {
+  width: 100px;
+  padding-top: 8px;
+}
+
+.Login-Input {
+  width: 200px;
+}
+
+Button {
+  margin-top: 10px;
+}

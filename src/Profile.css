@@ -1,0 +1,10 @@
+.Profile {
+    width: auto;
+    max-width: 600px;
+    margin: auto;
+    justify-content: center;
+}
+
+.Profile-Input {
+    margin-top: 25px;
+}
