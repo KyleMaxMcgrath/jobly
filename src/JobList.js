@@ -3,7 +3,7 @@ import {Button, Modal, ModalHeader, ModalBody, ModalFooter} from "reactstrap";
 import { useHistory, useParams } from "react-router-dom";
 import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 import axios from 'axios';
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { v4 as uuid } from 'uuid';
 
 const JobList = ({loggedIn}) => {
@@ -43,7 +43,7 @@ const JobList = ({loggedIn}) => {
         <>
             { 
                 isAdmin ?
-                <Button onClick={()=>{history.push('/postjob')}}>Post Job</Button> :
+                <Button className="JobList-Button" onClick={()=>{history.push('/postjob')}}>Post Job</Button> :
                 <p>Login as an admin to post jobs</p>
             }
             <br/>

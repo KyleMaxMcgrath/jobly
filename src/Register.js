@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 import { Form, InputGroup, Input, Label, Button, NavLink } from 'reactstrap';
 import './Register.css';
@@ -66,7 +66,7 @@ const Register = ({loggedIn}) => {
       <Input className='Register-Input' id='password' name='password' type='password' onChange={onChange}/>
     </InputGroup>
     <br/>
-    <Button>Register</Button>
+    <Button className='Register-Button'>Register</Button>
   </Form>
     );
 }

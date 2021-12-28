@@ -2,7 +2,7 @@
   margin: auto;
   padding: 75px;
   border: thin solid black;
-  width: 400px;
+  width: auto;
   justify-content: center;
 }
 
@@ -14,9 +14,9 @@
 }
 
 .Register-Input {
-  width: 200px;
+  width: auto;
 }
 
-Button {
+.Register-Button {
   margin-top: 10px;
 }

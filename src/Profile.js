@@ -1,6 +1,6 @@
 import {Form, Input, Card, CardTitle, CardBody, Container, Row, Col, Button} from 'reactstrap';
 import './Profile.css';
-import {useState} from 'react';
+import React, {useState} from 'react';
 import {useHistory} from 'react-router-dom';
 import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 import { useEffect } from 'react/cjs/react.development';
@@ -25,7 +25,7 @@ const Profile = ({loggedIn}) => {
         setFormData(formData=>({...formData, 'username': res.data.username, 'email': res.data.email, 'name': res.data.name}))
     };
 
-    useEffect(loadProfile, []);
+    React.useEffect(loadProfile, []);
     
     if(!loggedIn) 
         return <Redirect to='/login'></Redirect>;

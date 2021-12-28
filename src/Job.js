@@ -1,7 +1,7 @@
 import {Card, CardBody, CardTitle, CardSubtitle, CardText, CardHeader, Container, Row, Col, NavLink, Button, Modal, ModalBody, ModalFooter, ModalHeader} from 'reactstrap';
 import {NavLink as NL} from 'react-router-dom';
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import "./Job.css";
 
 const Job = ({reset, selected, uuidValue, title, company, description, salary, equity}) => {

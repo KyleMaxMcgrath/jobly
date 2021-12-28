@@ -1,7 +1,7 @@
 import {InputGroup, Input, InputGroupText, Card, CardTitle, Form, Button, Container, Row, Col} from 'reactstrap';
 import './PostJob.css';
 import { Redirect, useHistory } from "react-router-dom/cjs/react-router-dom.min";
-import { useState } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 
 const PostJob = ({loggedIn}) => {
